@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Addd all meta tags including author og tags and twitter tags -->
+    <meta name="author" content="Muhammad Tayyab Sheikh">
+    <meta name="description" content="Markdown to Unicode Converter">
+    <meta name="keywords" content="markdown, unicode, converter, markdown to unicode, markdown to unicode converter, markdown converter, markdown to unicode converter online, markdown to unicode converter javascript, markdown to unicode converter js, markdown to unicode converter github, markdown to unicode converter npm, markdown to unicode converter node, markdown to unicode converter nodejs, markdown to unicode converter node.js, markdown to unicode converter node js, markdown to unicode converter node-js, markdown to unicode converter node_js, markdown to unicode converter node-js, markdown to unicode converter node_js, markdown to unicode converter node-javascript, markdown to unicode converter nodejs-javascript, markdown to unicode converter node_js-javascript, markdown to unicode converter node-javascript, markdown to unicode converter nodejs-javascript, markdown to unicode converter node_js-javascript, markdown to unicode converter node-javascript">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <title>Markdown to Unicode Example</title>
+    <script src="https://cdn.jsdelivr.net/gh/cstayyab/markdown-to-unicode@main/dist/markdown-to-unicode.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function convert() {
+            const markdown = document.getElementById("markdown").value;
+            const unicode = MarkdownToUnicode(markdown);
+            document.getElementById("unicode").value = unicode;
+        }
+        window.onload = convert;
+    </script>
+</head>
+
+<body class="min-h-[100vh] min-w-[100vw]">
+    <h1 class="text-3xl">Markdown to Unicode</h1>
+    <div class="flex flex-col w-100 gap-2 p-2">
+        <div class="flex flex-col w-100">
+            <label for="markdown" class="text-xl">Markdown</label>
+            <textarea id="markdown" cols="30" rows="10" class="border p-2">**Hello** *World* and ~~Universe~~</textarea>
+        </div>
+        <div class="flex justify-left">
+            <button onclick="convert()"
+                class="button bg-black border border-slate-300 rounded text-white p-2">Convert</button>
+            <a href="https://github.com/cstayyab/markdown-to-unicode/issues/?q=is%3Aissue" target="_blank" rel="nopener noreferrer"
+                class="button bg-red-700 border border-slate-300 rounded text-white p-2">Report a Problem</a>
+        </div>
+        <div class="flex flex-col w-100">
+            <label for="unicode" class="text-xl">Unicode</label>
+            <textarea id="unicode" cols="30" rows="10" readonly class="border p-2"></textarea>
+        </div>
+    </div>
+    <div class="sticky lg:absolute bottom-0 mt-auto text-center min-w-[100vw] py-4 bg-black text-white font-bold">
+        <a href="https://github.com/cstayyab/markdown-to-unicode">𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 ♥ 𝐛𝐲 𝐌𝐮𝐡𝐚𝐦𝐦𝐚𝐝 𝐓𝐚𝐲𝐲𝐚𝐛 𝐒𝐡𝐞𝐢𝐤𝐡 (𝐂𝐒𝐓𝐚𝐲𝐲𝐚𝐛)</a>
+    </div>
+</body>
+
+</html>
