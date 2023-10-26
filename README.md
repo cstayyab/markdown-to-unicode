@@ -11,12 +11,21 @@ A simple library to convert Markdown syntax to Unicode characters.
 
 ```javascript
 const convertMarkdownToUnicode = require('markdown-to-unicode');
-const unicodeText = convertMarkdownToUnicode("**Hello** *World* and ~~Universe~~'");
+const unicodeText = convertMarkdownToUnicode("**Hello** *World* and ~~Universe~~");
 console.log(unicodeText); // Output the unicode equivalent
 ```
 
 **Output:**
 > 𝐇𝐞𝐥𝐥𝐨 𝑊𝑜𝑟𝑙𝑑 and U̶n̶i̶v̶e̶r̶s̶e̶
+
+### Browser Usage
+```html
+<script src="https://cdn.jsdelivr.net/gh/cstayyab/markdown-to-unicode@main/dist/markdown-to-unicode.js"></script>
+<script>
+    const result = MarkdownToUnicode("**Hello** *World* and ~~Universe~~");
+    console.log(result);
+</script>
+```
 
 ## Roadmap
 
