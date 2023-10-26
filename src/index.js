@@ -26,7 +26,4 @@ function convertMarkdownLineToUnicode(markdownLine) {
     return unicodeLine;
 }
 
-console.log(convertMarkdownToUnicode('This is a **bold text**.'));
-
-
 module.exports = convertMarkdownToUnicode;
