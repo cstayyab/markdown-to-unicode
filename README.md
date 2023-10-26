@@ -1,6 +1,9 @@
 
 # Markdown to Unicode Converter
 
+![NPM Package](https://img.shields.io/npm/v/markdown-to-unicode?style=flat-square&logo=npm&logoColor=white&label=%2Fmarkdown-to-unicode&labelColor=%23cc3534&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fmarkdown-to-unicode)
+![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hy/cstayyab/markdown-to-unicode?style=flat-square&logo=jsdelivr&labelColor=%23df9c26&color=%23e74e3d)
+---
 A simple library to convert Markdown syntax to Unicode characters.
 
 ## Installation
