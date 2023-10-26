@@ -39,7 +39,7 @@ console.log(unicodeText); // Output the unicode equivalent
 ❎ Unordered List <br/>
 ❎ Horizontal Line <br/>
 ❎ TypeScript Support <br/>
-❎ Web Browser Support <br/>
+✅ Web Browser Support <br/>
 ❎ Additional Options Support (e.g. Font) for uniform formatting <br/>
 
   
