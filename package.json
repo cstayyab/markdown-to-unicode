@@ -1,6 +1,6 @@
 {
     "name": "markdown-to-unicode",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple library to convert Markdown syntax to Unicode characters.",
     "keywords": [
         "markdown",
