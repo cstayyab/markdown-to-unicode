@@ -2,6 +2,8 @@
     "name": "markdown-to-unicode",
     "version": "1.0.1",
     "description": "A simple library to convert Markdown syntax to Unicode characters.",
+    "repository": "git://github.com/cstayyab/markdown-to-unicode.git",
+    "homepage": "https://github.com/cstayyab/markdown-to-unicode",
     "keywords": [
         "markdown",
         "unicode",
