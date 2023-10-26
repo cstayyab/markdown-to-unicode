@@ -1,0 +1,11 @@
+# Directories
+node_modules/
+tests/
+dist/
+
+# Configuration files
+webpack.config.js
+jest.config.js
+
+# System files
+.DS_Store

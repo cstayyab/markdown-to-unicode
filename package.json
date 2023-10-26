@@ -1,0 +1,23 @@
+{
+    "name": "markdown-to-unicode",
+    "version": "1.0.0",
+    "description": "A simple library to convert Markdown syntax to Unicode characters.",
+    "keywords": [
+        "markdown",
+        "unicode",
+        "text",
+        "convert",
+        "parser"
+    ],
+    "main": "src/index.js",
+    "scripts": {
+        "test": "jest",
+        "prepublishOnly": "npm test",
+        "publish": "npm publish"
+    },
+    "author": "Muhammad Tayyab Sheikh <contact@cstayyab.com> (https://cstayyab.com)",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
