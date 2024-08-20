@@ -25,4 +25,16 @@ describe('convertMarkdownToUnicode', () => {
         
         expect(result).toBe('This is a s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶ ̶t̶e̶x̶t̶.');
     });
+    it('should return unordered list when line start with -', () => {
+        const plainText = ' - List Item 1';
+        const result = convertMarkdownToUnicode(plainText);
+        
+        expect(result).toBe(' • List Item 1');
+    });
+    it('should return unordered list when line start with *', () => {
+        const plainText = ' * List Item 2';
+        const result = convertMarkdownToUnicode(plainText);
+        
+        expect(result).toBe(' • List Item 2');
+    });
 });

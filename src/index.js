@@ -1,7 +1,7 @@
 const convertBoldToUnicode = require('./partials/bold');
 const convertItalicToUnicode = require('./partials/italic');
 const convertStrikethroughToUnicode = require('./partials/strikethrough');
-
+const convertUnorderedListToUnicode = require('./partials/unorderedlist');
 
 // Function to convert markdown to unicode
 function convertMarkdownToUnicode(markdownText) {
@@ -18,7 +18,7 @@ function convertMarkdownLineToUnicode(markdownLine) {
     unicodeLine = convertStrikethroughToUnicode(unicodeLine);
     // unicodeLine = convertBlockquoteToUnicode(unicodeLine);
     // unicodeLine = convertOrderedListToUnicode(unicodeLine);
-    // unicodeLine = convertUnorderedListToUnicode(unicodeLine);
+    unicodeLine = convertUnorderedListToUnicode(unicodeLine);
     // unicodeLine = convertHorizontalRuleToUnicode(unicodeLine);
     // unicodeLine = convertHeadingToUnicode(unicodeLine);
     // unicodeLine = convertLinkToUnicode(unicodeLine);
